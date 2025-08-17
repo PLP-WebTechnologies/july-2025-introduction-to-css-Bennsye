@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Mastery: The Box Model & Layout</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <h1>Mastering CSS Fundamentals</h1>
+        <p>A deep dive into the Box Model, layouts, and modern styling techniques.</p>
+    </header>
+
+    <main class="container">
+        
+        <section class="intro-section">
+            <h2>The Foundation of Web Design</h2>
+            <p>
+                Every element on a webpage is a box. Understanding this fundamental concept, known as the CSS Box Model, is the key to creating predictable and beautiful layouts. This page demonstrates how we use padding, borders, and margins to control the size and spacing of elements, turning a simple structure into a visually appealing design.
+            </p>
+        </section>
+
+        <section class="box-model-grid">
+            <div class="card box-model-card">
+                <h3>Content</h3>
+                <p>
+                    The content area is where your text, images, and other media live. It's the innermost part of the box. Its size can be controlled with the `width` and `height` properties.
+                </p>
+            </div>
+            <div class="card box-model-card padding-demo">
+                <h3>Padding</h3>
+                <p>
+                    Padding is the space between the content and the border. It's used to give your content breathing room and is part of the element's background.
+                </p>
+            </div>
+            <div class="card box-model-card border-demo">
+                <h3>Border</h3>
+                <p>
+                    The border is a line that wraps around the padding and content. It's a key part of an element's visual appearance and can be styled in various ways.
+                </p>
+            </div>
+            <div class="card box-model-card margin-demo">
+                <h3>Margin</h3>
+                <p>
+                    Margin is the space outside the border. It creates a buffer zone between this element and other elements on the page, pushing them away.
+                </p>
+            </div>
+        </section>
+
+        <section class="feature-section">
+            <h2>Modern Layout Techniques</h2>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <img src="https://via.placeholder.com/100" alt="Responsive design icon">
+                </div>
+                <div class="feature-content">
+                    <h3>Responsive Design</h3>
+                    <p>
+                        By combining the Box Model with flexible units and media queries, we can create layouts that look great on any device, from a large desktop monitor to a small mobile phone.
+                    </p>
+                </div>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <img src="https://via.placeholder.com/100" alt="Interactive elements icon">
+                </div>
+                <div class="feature-content">
+                    <h3>Interactive Elements</h3>
+                    <p>
+                        CSS is also used to style interactive elements like buttons and forms. We can add transitions and hover effects to provide better user feedback.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="call-to-action">
+            <div class="cta-box">
+                <h3>Ready to Learn More?</h3>
+                <p>
+                    Explore the source code to see how these techniques were implemented. This project is a great starting point for mastering web layout.
+                </p>
+                <a href="#" class="button button-cta">View Code</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 CSS Fundamentals. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
